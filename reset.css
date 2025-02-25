@@ -1,0 +1,53 @@
+/* Tüm elementlerde padding ve margin sıfırla, box-sizing ayarla */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Liste stillerini sıfırla */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Linklerin alt çizgilerini kaldır */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Varsayılan fontu ve satır yüksekliğini belirle */
+  body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Resimlerin taşmasını önle */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Form öğeleri için temel stiller */
+  button, input, textarea {
+    font-family: inherit;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  
+  /* Tablo kenarlıklarını sıfırla */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Varsayılan buton stillerini sıfırla */
+  button {
+    cursor: pointer;
+  }
+  
