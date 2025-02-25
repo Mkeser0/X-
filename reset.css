@@ -20,7 +20,6 @@
   body {
     font-size: 16px;
     font-family: Arial, sans-serif;
-    line-height: 1.5;
     background-color: #fff;
     color: #000;
   }
@@ -35,9 +34,7 @@
   /* Form öğeleri için temel stiller */
   button, input, textarea {
     font-family: inherit;
-    border: none;
-    outline: none;
-    background: none;
+  
   }
   
   /* Tablo kenarlıklarını sıfırla */

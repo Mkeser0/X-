@@ -1,0 +1,123 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;  /* margin'i 0'a çektik */
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    
+}
+.fa-x-twitter {
+    font-size: 18em;
+    color: black;
+    
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    
+}
+.main-content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 1rem;
+}
+.main-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+button {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: white;
+    max-width: 50%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+}
+.fa-apple {
+    font-size: larger;
+}
+.apple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.veya {
+    padding-left: 20%;
+    font-size: .7rem;
+}
+.agreement {
+    font-size: .5rem;
+    max-width: 50%;
+}
+.agreement a {
+    color: #1DA1F2;
+}
+.soru {
+    font-size: .7rem;
+    font-weight: bold;
+}
+h1 {
+    margin: 0;
+    padding:0;
+}
+.giris {
+    color: #1DA1F2;
+}
+.hesap-olustur {
+    background-color: #1DA1F2;
+    color: white;
+}
+ul {
+    font-size: .5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+@media (max-width: 600px) {
+    .fa-x-twitter {
+        display: none;
+    }
+    .main-content {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .veya {
+        padding-left: 0;
+    }   
+    .main-content-left {
+        width: 100%;
+        align-items: center;
+    }
+    button {
+        width: 90%;
+        max-width: 90%;
+    }
+    .apple {
+        gap: .15rem;
+    }
+    .main-container {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .agreement {
+        max-width: 90%;
+        text-align: center;
+    }
+}
